@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0 ;box-sizing: border-box;}
+body{
+    max-width: 1250px;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+.header img{
+    height: 150 px; 
+   float: left;
+}
+.button {
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+    margin-top: 100px;
+    padding-left: 10px;
+}
+.button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+nav{
+    background-color: #03038ae8;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+     width: 100%;
+}
+nav a{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+  
+}
+nav li{ 
+    line-height: 40px;
+    margin-left: 25px;
+}
+nav ul a:hover{
+    background: whitesmoke ;
+    color:black ;
+}
+.title{
+    font-size: x-large;
+    color: red;
+    background-color: yellow;
+    padding: 5px;
+}
+form{
+    margin-top: 20px;
+    width: 500px;
+    border: 1px solid black ;
+    padding: 25px;
+    background-color: aquamarine;
+
+}
+.name{
+    padding: 5px;
+}
+.mk{
+    padding: 5px;
+}
+
+.sign{
+    padding: 5px;
+    margin-top: 20px;
+}
+.button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue; 
+    text-decoration: none;  
+}
+.button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.Check a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    margin-left: 15px;
+}
+   
+.cuoi{
+    clear:both;
+    padding-top: 25px;
+}
+.cuoi ul{
+    background-color: #03038ae8;
+    border-radius: 10px;
+}
+.cuoi ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: x-large;
+    color: white;
+    margin-left: 25px;
+    padding: 10px;
+}
+.noi{
+    font-size: larger;
+    padding: 10px;
+}
+.form{
+    justify-content: center;
+    display: flex;
+}
+input[type="checkbox"]{
+    margin-top: 10px;
+}
